@@ -6,7 +6,7 @@ running `review <projectName> <gitHubPullRequestNumber> [<commandName>]` does th
 - Opens GitHub PR in the browser 
 - Searches a configured Trello board for the card where the PR is attached and opens it
 - Force checkouts the PR branch in your working directory
-- Runs custom command by detecting tags/labels on GitHub PR or Trello card
+- Runs custom command by detecting tags/labels on GitHub PR or Trello card. You can override it by passing `commandName` as the last argument.
 
 **Disclaimer!** This software was written for my personal use and it does not (yet) have the ambition to be well-tested and well-structured project ready for everyday use by the community. 
 Your mileage may vary.
