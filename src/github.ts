@@ -15,7 +15,7 @@ export class GitHub{
             host: "api.github.com", // should be api.github.com for GitHub
             timeout: 5000,
             headers: {
-                "user-agent": "Applifting-CodeReview-Helper" // GitHub is happy with a unique user agent
+                "user-agent": "CodeReview-Helper" // GitHub is happy with a unique user agent
             }
         });        
         this.gitHubClient.authenticate({
