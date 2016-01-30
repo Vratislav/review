@@ -4,7 +4,7 @@
         "gitHubToken" : "Your github personal access token. See: https://help.github.com/articles/creating-an-access-token-for-command-line-use/",
         "repoOwner" : "Knowspread",
         "repoName" : "knowspread",
-        "workingDir" : "/Users/Kal/repos/knowspread",
+        "workingDir" : "path/to/your/local/repo",
         "trelloApiKey" : "64f193ed2741632d0a47c8f6ae6b1a22",
         "trelloToken" : "Your trello access token. Run 'review trello', allow access and paste token here.",
         "trelloBoardId" : "Board ID of the board you want to search for cards",
