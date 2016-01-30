@@ -1,5 +1,5 @@
 # review
-Node.js tool for automating Code reviews chores across Trello and GitHub
+Node.js tool for automating code review chores across Trello and GitHub
 
 running `review <projectName> <gitHubPullRequestNumber> [<commandName>]` does the following:
 
