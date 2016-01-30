@@ -1,0 +1,32 @@
+{
+  "name": "review",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "bin": "./bin/review",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "npm run clean && tsc && jasmine",
+    "clean": "rm -rf ./dist && rm -rf ./build",
+    "start": "npm run clean && tsc && node build/index.js",
+    "dist": "npm run clean && tsc && cp -r ./build ./dist"
+  },
+  "author": "Vratislav Kalenda",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "es6-promise": "^3.0.2",
+    "github": "^0.2.4",
+    "lodash": "^4.1.0",
+    "node-trello": "^1.1.2",
+    "nodegit": "^0.9.0",
+    "open": "0.0.5",
+    "shelljs": "^0.5.3",
+    "source-map-support": "^0.4.0",
+    "yargs": "^3.32.0"
+  }
+}
