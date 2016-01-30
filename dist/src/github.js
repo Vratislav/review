@@ -11,7 +11,7 @@ var GitHub = (function () {
             host: "api.github.com",
             timeout: 5000,
             headers: {
-                "user-agent": "Applifting-CodeReview-Helper" // GitHub is happy with a unique user agent
+                "user-agent": "CodeReview-Helper" // GitHub is happy with a unique user agent
             }
         });
         this.gitHubClient.authenticate({

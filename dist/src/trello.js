@@ -41,7 +41,7 @@ var Trello = (function () {
     };
     Trello.prototype.obtainTrelloKey = function (project) {
         console.log("[Trello] Obtaining Trello token");
-        var trelloUrl = "https://trello.com/1/connect?key=" + project.trelloApiKey + "&name=AppliftingReview&response_type=token&expiration=never";
+        var trelloUrl = "https://trello.com/1/connect?key=" + project.trelloApiKey + "&name=review&response_type=token&expiration=never";
         var open = require("open");
         open(trelloUrl);
     };
